@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 = Tc2005b.402 Construcción de software y toma de decisiones
+=======
+= Tc2005b.401 Construcción de software y toma de decisiones
+>>>>>>> 91651ec (Update and rename README.md to README.adoc)
 
 == Módulo: Desarrollo web
 
@@ -12,7 +16,11 @@ Los archivos se pueden consultar directamente en este mismo sitio, o se puede us
 
 2. Clonar este repositorio. Desde la terminal, teclear:
     
+<<<<<<< HEAD
     git clone https://github.com/ariel-ortiz/202411-tc2005b.402.git tc2005b
+=======
+    git clone https://github.com/ariel-ortiz/202411-tc2005b.401.git tc2005b
+>>>>>>> 91651ec (Update and rename README.md to README.adoc)
     
 3. Cambiarse al directorio `tc2005b`:
     

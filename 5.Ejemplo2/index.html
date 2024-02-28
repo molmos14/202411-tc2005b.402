@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máximo Común Divisor</title>
+    <script src="mcd.js" defer></script>
+    <!--
+        colocar defer para que el script se ejecute después de que el DOM esté listo
+    -->
+    </head>
+<body>
+    <h1>Máximo Común Divisor</h1>
+    <div id ="entradas">
+        <p>
+            <label for="entrada1">Entrada 1:</label>
+            <!--
+                El label garantiza ser utilizado por más dispositivos como 
+                Para los cieguitos :( 
+            -->
+            <input type="text" id="entrada1">
+        </p>
+        <p>
+            <label for="entrada2">Entrada 2:</label>
+            <input type="text" id="entrada2">
+        </p>
+        <button id="boton_mcd">
+            Calcular MCD
+        </button>
+    </div>
+
+    <div id = "salida" style="display: none;">
+        <h2 id = "Resultado">Algo por ahí :P</h2>
+        <a href="">Regresar</a>
+
+    </div>
+    
+</body>
+</html>

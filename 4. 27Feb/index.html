@@ -1,8 +1,27 @@
+<!--
+    Selector de etiqueta con propiedad: valor;
+        es un elemento que se aplica a todas las etiquetas que 
+        tengan esa propiedad con ese valor.
+        id #Nombre <... id = "Nombre">
+        Class .Nombre <... class = "Nombre">
+            class es para varios elementos
+-->
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Selectores</title>
+    <style>
+        h1 {
+            color: red;
+        }
+        .azuloso {
+            color: blue;
+            font-style: normal;
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h1>Primer encabezado</h1>
@@ -11,7 +30,9 @@
 
     <h1>Segundo encabezado</h1>
 
-    <p>segundo encabezado</p>
+    <p class="azuloso">segundo parrafo</p>
+
+    <p>tercer <em class="azuloso">parrafo</em></p>
 
 </body>
 </html>

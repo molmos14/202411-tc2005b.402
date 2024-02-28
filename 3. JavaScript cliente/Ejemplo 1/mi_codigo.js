@@ -18,11 +18,20 @@ const mi_titulo = document.getElementById("mi_titulo");
 const mi_buton_rojo = document.getElementById("mi_boton_rojo");
 const cuerpo = document.getElementById("cuerpo");
 
+const mi_lista = document.getElementById("mi_lista");
+
 mi_buton.addEventListener("click", boton_presionado);
 mi_buton_rojo.addEventListener("click", enrojece);
 
+let contador = 0;
+const colores = ["red", "green", "blue"];
+
 function boton_presionado() {
-  mi_titulo.innerText = "Presionaste el botón";
+  //mi_titulo.innerText = "Presionaste el botón";
+  //alert('Presionaste el botón');
+  contador++;
+  mi_lista.innerHTML += "<li>Opción #" + contador + "</li>";
+  mi_lista.style.color = colores[contador % colores.length];
 }
 
 function enrojece() {
